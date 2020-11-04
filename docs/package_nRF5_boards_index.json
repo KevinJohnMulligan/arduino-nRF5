@@ -285,7 +285,8 @@
             {"name": "Sino:bit"},
             {"name": "Taida Century nRF52 mini board"},
             {"name": "TinyBLE"},
-            {"name": "Waveshare BLE400"}
+            {"name": "Waveshare BLE400"},
+            {"name": "Uncle Pi uPPico nRF51422"}
           ],
           "toolsDependencies": [
             {
