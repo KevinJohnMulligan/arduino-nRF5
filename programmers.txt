@@ -26,3 +26,10 @@ blackmagicprobe.program.protocol=
 blackmagicprobe.program.tool=blackmagicprobe
 blackmagicprobe.bootloader.tool=sandeepmistry:blackmagicprobe
 blackmagicprobe.program.extra_params=;
+
+ftdi.name=ftdi
+ftdi.communication=USB
+ftdi.protocol=ftdi
+ftdi.program.protocol=ftdi
+ftdi.program.tool=openocd
+ftdi.program.setup_command=transport select swd; set WORKAREASIZE 0; debug_level 3;
